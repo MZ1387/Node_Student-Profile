@@ -9,4 +9,7 @@ A dynamic website that displays a Treehouse student's profile information by usi
 
 ## Concepts Implemented
 
--
+- Routing
+- GET/POST methods
+- Request/Response Cycle
+- Templating

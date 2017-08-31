@@ -6,7 +6,6 @@ function mergeValues(values, content) {
     // replace all {{keys}} with the value from the values object
     content = content.replace('{{' + key + '}}', values[key])
   }
-
   // return merged content
   return content;
 }
@@ -17,7 +16,7 @@ function view(templateName, values, response) {
 
   // insert values into the content
   fileContents = mergeValues(values, fileContents);
-  // write out the response
+    // write out the response
     response.write(fileContents);
 }
 

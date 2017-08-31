@@ -18,3 +18,5 @@
         // show error
 
 // 4. function that handles the reading of files and merges in values
+  // read from file and get a string
+     // merge values into string
